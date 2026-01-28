@@ -80,7 +80,7 @@ export default function Home() {
             <AlbumCard
               title="WE BOW"
               artist="YermiYahu"
-              price={1.00}
+              price={30.00}
               imageUrl="/album-cover.jpg"
             />
           </div>
