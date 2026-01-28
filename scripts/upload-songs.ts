@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { put, list } from "@vercel/blob";
 import { readdir, readFile } from "fs/promises";
 import path from "path";

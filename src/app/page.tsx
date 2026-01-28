@@ -11,7 +11,7 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] md:min-h-[70vh] flex flex-col overflow-hidden">
+      <section className="relative min-h-[60vh] md:min-h-[70vh] flex flex-col overflow-hidden pt-20">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
