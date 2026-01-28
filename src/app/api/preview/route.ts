@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { list } from "@vercel/blob";
 import path from "path";
 
+export const dynamic = "force-dynamic";
+
 const ALBUM_PATH = "albums/WE BOW";
 
 export async function GET(request: NextRequest) {

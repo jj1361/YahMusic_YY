@@ -3,6 +3,8 @@ import Stripe from "stripe";
 import { list } from "@vercel/blob";
 import path from "path";
 
+export const dynamic = "force-dynamic";
+
 function getStripe() {
   const key = process.env.STRIPE_SECRET_KEY;
   if (!key) {

@@ -4,6 +4,8 @@ import { list } from "@vercel/blob";
 import path from "path";
 import JSZip from "jszip";
 
+export const dynamic = "force-dynamic";
+
 function getStripe() {
   const key = process.env.STRIPE_SECRET_KEY;
   if (!key) {
