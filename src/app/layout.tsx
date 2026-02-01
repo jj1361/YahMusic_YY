@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "YermiYahu123 - New Album",
-  description: "Purchase the latest album from YermiYahu123",
+  title: "YermiYahu (Tai Niblack) - New Album",
+  description: "Purchase the latest album from YermiYahu (Tai Niblack) - 'WE BOW'. Available for digital download.",
 };
 
 export default function RootLayout({
